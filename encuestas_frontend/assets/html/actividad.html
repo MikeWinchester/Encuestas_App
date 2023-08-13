@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuesta de Actividad Física</title>
+  <link rel="stylesheet" href="../css/actividad.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title" style="text-align: center; margin-bottom: 50px;">Actividad Física</h1>
+    <form id="surveyForm">
+      <label id="1" for="pregunta1">¿Cuántas veces a la semana haces ejercicio?</label>
+      <input type="number" id="pregunta1" name="pregunta1"><br><br>
+      
+      <label id="2" for="pregunta2">¿Qué tipo de ejercicio prefieres?</label>
+      <select id="pregunta2" name="pregunta2">
+        <option>Caminar</option>
+        <option>Correr</option>
+        <option>Nadar</option>
+        <option>Otro</option>
+      </select><br><br>
+      
+      <label id="3" for="pregunta3">¿Cuál es tu deporte favorito?</label>
+      <select id="pregunta3" name="pregunta3">
+        <option>Fútbol</option>
+        <option>Baloncesto</option>
+        <option>Tenis</option>
+        <option>Otro</option>
+      </select><br><br>
+      
+      <label id="4" for="pregunta4">¿Qué te motiva a hacer ejercicio?</label>
+      <input type="text" id="pregunta4" name="pregunta4"><br><br>
+      
+      <button id="send-button" type="submit">Enviar Encuesta</button>
+    </form>
+  </div>
+  
+  <script src="../js/script.js"></script>
+  
+</body>
+</html>
+
+
+

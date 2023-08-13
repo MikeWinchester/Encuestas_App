@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentación Diaria</title>
+    <link rel="stylesheet" href="../css/alimentacion.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title" style="text-align: center; margin-bottom: 50px;">Alimentación Diaria</h1>
+    <form id="surveyForm">
+      <label id="1" for="pregunta1">¿Con qué frecuencia consumes frutas y verduras en tu dieta diaria?</label>
+      <select id="pregunta1" name="pregunta1">
+        <option>Muy frecuentemente</option>
+        <option>Frecuentemente</option>
+        <option>Regularmente</option>
+        <option>No lo hago</option>
+      </select><br><br>
+          
+      <label id="2" for="pregunta2">¿Qué tipo de alimentos sueles consumir en el desayuno?</label>
+      <input type="text" id="pregunta2" name="pregunta2" required><br><br>
+          
+      <label id="3" for="pregunta3">¿Prefieres comidas caseras o alimentos procesados?</label>
+      <select id="pregunta3" name="pregunta3">
+        <option>Alimentos procesados</option>
+        <option>Comidas caseras</option>
+      </select><br><br>
+          
+      <label id="4" for="pregunta4">¿Eres consciente de lo que consumes y sus consecuencias?</label>
+      <select name="pregunta4" id="pregunta4">
+        <option>Soy muy consciente.</option>
+        <option>Soy consciente.</option>
+        <option>A veces soy muy consciente.</option>
+        <option>No presto atención a eso.</option>
+      </select><br><br>
+          
+      <button id="send-button" type="submit">Enviar Encuesta</button>
+    </form>
+  </div>  
+  <script src="../js/script.js"></script>
+</body>
+</html>
