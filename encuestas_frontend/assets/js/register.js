@@ -1,4 +1,4 @@
-const SERVER = "localhost"; //Servirdor que está ejecutando las peticiones
+const SERVER = "20.81.55.219"; //Servirdor que está ejecutando las peticiones
 const PORT = "5000"; //Puerto del servidor
 
 document.getElementById('correoError').style.display = 'none';

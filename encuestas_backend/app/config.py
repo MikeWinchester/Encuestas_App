@@ -1,7 +1,7 @@
 DB_CONFIG = {
-    'server': 'WINCHESTER\SQLEXPRESS',
+    'server': 'sql-server',
     'database': 'prueba',
-    'username': '',
-    'password': '',
-    'driver': 'SQL Server',
+    'username': 'sa',
+    'password': 'sistemas',
+    'driver': '{ODBC Driver 17 for SQL Server}',
 }

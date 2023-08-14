@@ -2,14 +2,16 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY encuestas_backend/requirements.txt /app/
+COPY ./requirements.txt /app/
 
 RUN apt-get update && apt-get install -y unixodbc-dev
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY encuestas_backend/ /app/
+COPY . /app/
 
 EXPOSE 5000
 
 CMD ["python", "run.py"]
+
+
